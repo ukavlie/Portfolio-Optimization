@@ -32,6 +32,8 @@ The sample covariance matrix is a poor estimator when the number of assets is la
 - Does Ledoit-Wolf optimisation systematically reduce portfolio volatility relative to equal-weighting?
 - Which sectors benefit most from optimisation, and which are already close to efficient under equal-weighting?
 - How does tail risk (VaR) compare between the two approaches?
+- How does tail risk (VaR at the 5th percentile) compare between equal-weighted 
+  and optimised portfolios, and does optimisation systematically reduce downside exposure?
 
 ## Tools
 
@@ -41,4 +43,4 @@ The sample covariance matrix is a poor estimator when the number of assets is la
 
 ## Connection to Companion Analyses
 
-This project complements the [Shiller CAPE & Market Regimes](../Shiller-PE-Ratio) and [US Treasuries](../US-Treasuries-Analysis) analyses. Where those focus on macroeconomic predictors of market returns, this project operates at the portfolio construction level — taking expected returns and risk as given and asking how to allocate optimally across assets.
+This project complements the [Shiller CAPE & Market Regimes](https://github.com/ukavlie/Shiller-PE-Ratio) and [US Treasuries](https://github.com/ukavlie/US-Treasuries-Analysis) analyses. Where those focus on macroeconomic predictors of market returns, this project operates at the portfolio construction level — taking expected returns and risk as given and asking how to allocate optimally across assets.
